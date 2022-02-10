@@ -1,0 +1,21 @@
+{
+  "name": "recipify-app",
+  "version": "1.0.0",
+  "description": "app for searching recipes",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Robert Lancman",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.0",
+    "parcel": "^2.2.0",
+    "sass": "^1.48.0"
+  },
+  "dependencies": {
+    "core-js": "^3.20.3",
+    "fracty": "^1.0.9",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
